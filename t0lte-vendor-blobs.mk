@@ -67,7 +67,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libssaudio-client.so:system/lib/libssaudio-client.so
+    $(LOCAL_PATH)/proprietary/system/lib/libssaudio-client.so:system/lib/libssaudio-client.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libtinyalsa.so:system/lib/libtinyalsa.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.smdk4x12.so:system/lib/hw/audio.primary.smdk4x12.so \
